@@ -1,0 +1,18 @@
+.hero-section {
+  background-image: url("https://placehold.co/1920x1080");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+.bg-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1000;
+}
