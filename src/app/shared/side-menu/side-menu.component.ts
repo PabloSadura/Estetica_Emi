@@ -14,5 +14,6 @@ export class SideMenuComponent {
     .map((r) => r.children ?? [])
     .flat()
     .filter((route) => route && route.path);
+
   constructor() {}
 }

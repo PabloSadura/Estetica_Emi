@@ -1,6 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
   <div class="container">
-    <a class="navbar-brand text-black fw-bold" href="#">Dra. Emilia Hediger </a>
+    <a class="navbar-brand" href="#"
+      ><img src="Logo_Emilia_Hediger.png" alt="" width="150" />
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -14,16 +16,31 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
         <li class="nav-item">
-          <a class="nav-link" href="#servicios">Servicio</a>
+          <a class="nav-link" href="#sobreMi">
+            <img src="Recurso1.png" alt="" width="50"
+          /></a>
+        </li>
+        <li class="nav-item tooltip-container">
+          <a class="nav-link" href="#servicios">
+            <span class="tooltip-text">Sobre Mí</span>
+            <img src="Recurso3.png" alt="" width="50"
+          /></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#sobremi">Sobre Mí</a>
+          <a class="nav-link" href="#servicios">
+            <img src="Recurso2.png" alt="" width="50"
+          /></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contacto">Contacto</a>
-        </li>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          data-bs-title="Tooltip on bottom"
+        >
+          Tooltip on top
+        </button>
       </ul>
     </div>
   </div>

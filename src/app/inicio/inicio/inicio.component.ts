@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { SideMenuComponent } from '../../shared/side-menu/side-menu.component';
-import { FormComponent } from '../pages/form/form.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 
 @Component({
   selector: 'app-inicio',
   standalone: true,
-  imports: [RouterOutlet, SideMenuComponent, FormComponent],
+  imports: [ServiciosComponent, SobreMiComponent],
   templateUrl: './inicio.component.html',
   styleUrls: ['./inicio.component.css'],
 })
